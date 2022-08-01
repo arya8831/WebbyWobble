@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/Shared.css">
+    <link rel="stylesheet" href="Styles/Query_page.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+    <title>Search of an id</title>
+</head>
+<body>
+<div>
+    <marquee direction="right" scrollamount="15" scrolldelay="30" loop="infinite"><p class="welcome-message">Welcome to
+        Data Vault </p>
+    </marquee>
+</div>
+<div>
+    <form action="/" method="post">
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="reference_key">Reference Key</label>
+        <input type="text" id="reference_key" name="ref_key">
+        <br>
+        <button>Submit</button>
+    </form>
+</div>
+<div class="output-area">
+    <p>Result:</p>
+</div>
+</body>
+</html>
