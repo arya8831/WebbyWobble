@@ -36,7 +36,7 @@ input:focus {
 
 /*Output Area Format*/
 
-.output-area {
+#output-area {
     width: 30rem;
     margin: 3rem auto;
     background-color: rgb(68, 65, 68);

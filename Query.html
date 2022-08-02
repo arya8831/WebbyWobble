@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/Shared.css">
     <link rel="stylesheet" href="Styles/Query_page.css">
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <script src="Script/query.js" defer></script>
 
     <title>Search of an id</title>
 </head>
@@ -23,18 +22,18 @@
     </marquee>
 </div>
 <div>
-    <form action="/" method="post">
-        <label for="name">Name </label>
+    <form action="/" method="post" id="form">
+        <label for="name">Name</label>
         <input type="text" id="name" name="name">
         <br>
         <label for="reference_key">Reference Key</label>
         <input type="text" id="reference_key" name="ref_key">
         <br>
-        <button>Submit</button>
+        <button id="button">Submit</button>
     </form>
 </div>
-<div class="output-area">
-    <p>Result:</p>
+<div>
+    <p id="output-area">Result:</p>
 </div>
 </body>
 </html>
